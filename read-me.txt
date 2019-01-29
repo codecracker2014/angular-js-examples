@@ -1,0 +1,27 @@
+Angular js setup:
+Prerequisites
+ 1. Node.js version 8.x or 10.x
+Installing Node.js:
+Follow https://nodejs.org/en/download/
+Now update npm as below:
+npm cache clean
+npm update -g
+
+NPM(Node Package Manager):
+-npm software registry.
+-npm is package Manager
+-npm can manage dependencies.
+
+
+All npm packages are defined in files called package.json.
+The content of package.json must be written in JSON.
+At least two fields must be present in the definition file: name and version.
+Example:
+{
+"name" : "test",
+"version" : "1.2.3",
+"description" : "sample package",
+"main" : "foo.js",
+"author" : "Gajendra",
+"licence" : "MIT"
+}
